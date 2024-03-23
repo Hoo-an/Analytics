@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7BB4A92BA1AC6D00B9DD82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB4A82BA1AC6D00B9DD82 /* AppDelegate.swift */; };
+		DF7BB4AB2BA1AC6D00B9DD82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB4AA2BA1AC6D00B9DD82 /* SceneDelegate.swift */; };
+		DF7BB4AD2BA1AC6D00B9DD82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB4AC2BA1AC6D00B9DD82 /* ViewController.swift */; };
+		DF7BB4B02BA1AC6E00B9DD82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7BB4AE2BA1AC6D00B9DD82 /* Main.storyboard */; };
+		DF7BB4B22BA1AC6F00B9DD82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7BB4B12BA1AC6F00B9DD82 /* Assets.xcassets */; };
+		DF7BB4B52BA1AC6F00B9DD82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7BB4B32BA1AC6F00B9DD82 /* LaunchScreen.storyboard */; };
+		DF7BB5492BA55E5500B9DD82 /* YMBAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5482BA55E5500B9DD82 /* YMBAnalytics.swift */; };
+		DF7BB54B2BA55E7000B9DD82 /* YMBAnalyticsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB54A2BA55E7000B9DD82 /* YMBAnalyticsConfiguration.swift */; };
+		DF7BB54D2BA58C5C00B9DD82 /* YMBAnalyst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB54C2BA58C5C00B9DD82 /* YMBAnalyst.swift */; };
+		DF7BB54F2BA58C7C00B9DD82 /* YMBAnalystManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB54E2BA58C7C00B9DD82 /* YMBAnalystManager.swift */; };
+		DF7BB5522BA58CF200B9DD82 /* YMBAnalyticsReadWriteLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5512BA58CF200B9DD82 /* YMBAnalyticsReadWriteLock.swift */; };
+		DF7BB5552BA58F6700B9DD82 /* YMBLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5542BA58F6700B9DD82 /* YMBLogger.swift */; };
+		DF7BB5572BA5902300B9DD82 /* YMBLoggerLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5562BA5902300B9DD82 /* YMBLoggerLevel.swift */; };
+		DF7BB5592BA5903C00B9DD82 /* YMBLoggerMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5582BA5903C00B9DD82 /* YMBLoggerMessage.swift */; };
+		DF7BB55B2BA5906700B9DD82 /* YMBLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB55A2BA5906700B9DD82 /* YMBLogging.swift */; };
+		DF7BB55D2BA592F500B9DD82 /* YMBLoggingConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB55C2BA592F500B9DD82 /* YMBLoggingConsole.swift */; };
+		DF7BB55F2BA594D700B9DD82 /* YMBLoggingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB55E2BA594D700B9DD82 /* YMBLoggingFile.swift */; };
+		DF7BB5612BA5A32100B9DD82 /* YMBAnalyticsAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5602BA5A32100B9DD82 /* YMBAnalyticsAssert.swift */; };
+		DF7BB5632BA5A46600B9DD82 /* YMBAnalyticsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5622BA5A46600B9DD82 /* YMBAnalyticsType.swift */; };
+		DF7BB5652BA5AACB00B9DD82 /* YMBAnalyticsApplicationLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5642BA5AACB00B9DD82 /* YMBAnalyticsApplicationLifecycle.swift */; };
+		DF7BB56B2BA91FFD00B9DD82 /* YMBAnalyticsAutomaticProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB56A2BA91FFD00B9DD82 /* YMBAnalyticsAutomaticProperties.swift */; };
+		DF7BB56D2BA921D100B9DD82 /* YMBAnalyticsDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB56C2BA921D100B9DD82 /* YMBAnalyticsDeviceInfo.swift */; };
+		DF7BB56F2BA92EA800B9DD82 /* YMBAnalyticsPropertiesConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB56E2BA92EA800B9DD82 /* YMBAnalyticsPropertiesConst.swift */; };
+		DF7BB5712BA933BE00B9DD82 /* YMBAnalyticsApplicationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5702BA933BE00B9DD82 /* YMBAnalyticsApplicationInfo.swift */; };
+		DF7BB5732BA95D2A00B9DD82 /* YMBAnalyticsReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5722BA95D2A00B9DD82 /* YMBAnalyticsReachability.swift */; };
+		DF7BB5752BA9769000B9DD82 /* YMBAnalyticsFlush.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5742BA9769000B9DD82 /* YMBAnalyticsFlush.swift */; };
+		DF7BB5792BA98F7000B9DD82 /* YMBAnalyticsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5782BA98F7000B9DD82 /* YMBAnalyticsDatabase.swift */; };
+		DF7BB57D2BA99B3500B9DD82 /* YMBAnalyticsJSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB57C2BA99B3500B9DD82 /* YMBAnalyticsJSONHandler.swift */; };
+		DF7BB57F2BA9A27200B9DD82 /* YMBAnalyticsEventStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB57E2BA9A27200B9DD82 /* YMBAnalyticsEventStorage.swift */; };
+		DF7BB5852BAAC38100B9DD82 /* YMBAnalyticsFlushRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5842BAAC38100B9DD82 /* YMBAnalyticsFlushRequest.swift */; };
+		DF7BB5872BAAD77D00B9DD82 /* YMBAnalyticsNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5862BAAD77D00B9DD82 /* YMBAnalyticsNetwork.swift */; };
+		DF7BB5892BABFFF600B9DD82 /* YMBAnalyticsStorageConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5882BABFFF600B9DD82 /* YMBAnalyticsStorageConst.swift */; };
+		DF7BB58B2BAC004700B9DD82 /* YMBAnalyticsUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB58A2BAC004700B9DD82 /* YMBAnalyticsUserDefaults.swift */; };
+		DF7BB58D2BAC135B00B9DD82 /* YMBAnalyticsUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB58C2BAC135B00B9DD82 /* YMBAnalyticsUserInfo.swift */; };
+		DF7BB58F2BAC146D00B9DD82 /* YMBAnalyticsDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB58E2BAC146D00B9DD82 /* YMBAnalyticsDate.swift */; };
+		DF7BB5952BAC4BA000B9DD82 /* YMBAnalyticsPathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5942BAC4BA000B9DD82 /* YMBAnalyticsPathManager.swift */; };
+		DF7BB5972BAD15D000B9DD82 /* YMBAnalyticsSwizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5962BAD15CF00B9DD82 /* YMBAnalyticsSwizzle.swift */; };
+		DF7BB5992BAD316900B9DD82 /* YMBAnalyticsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5982BAD316900B9DD82 /* YMBAnalyticsScreen.swift */; };
+		DF7BB59B2BAD471C00B9DD82 /* YMBAnalyticsKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB59A2BAD471C00B9DD82 /* YMBAnalyticsKeyChain.swift */; };
+		DF7BB59D2BAD4A7C00B9DD82 /* YMBAnalyticsSha1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB59C2BAD4A7C00B9DD82 /* YMBAnalyticsSha1.swift */; };
+		DF7BB5A22BAE617800B9DD82 /* YMBAnalyticsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7BB5A12BAE617800B9DD82 /* YMBAnalyticsResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF7BB4A52BA1AC6D00B9DD82 /* YMBAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMBAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7BB4A82BA1AC6D00B9DD82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF7BB4AA2BA1AC6D00B9DD82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF7BB4AC2BA1AC6D00B9DD82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF7BB4AF2BA1AC6D00B9DD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF7BB4B12BA1AC6F00B9DD82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7BB4B42BA1AC6F00B9DD82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7BB4B62BA1AC6F00B9DD82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7BB5482BA55E5500B9DD82 /* YMBAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalytics.swift; sourceTree = "<group>"; };
+		DF7BB54A2BA55E7000B9DD82 /* YMBAnalyticsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsConfiguration.swift; sourceTree = "<group>"; };
+		DF7BB54C2BA58C5C00B9DD82 /* YMBAnalyst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyst.swift; sourceTree = "<group>"; };
+		DF7BB54E2BA58C7C00B9DD82 /* YMBAnalystManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalystManager.swift; sourceTree = "<group>"; };
+		DF7BB5512BA58CF200B9DD82 /* YMBAnalyticsReadWriteLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsReadWriteLock.swift; sourceTree = "<group>"; };
+		DF7BB5542BA58F6700B9DD82 /* YMBLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLogger.swift; sourceTree = "<group>"; };
+		DF7BB5562BA5902300B9DD82 /* YMBLoggerLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLoggerLevel.swift; sourceTree = "<group>"; };
+		DF7BB5582BA5903C00B9DD82 /* YMBLoggerMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLoggerMessage.swift; sourceTree = "<group>"; };
+		DF7BB55A2BA5906700B9DD82 /* YMBLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLogging.swift; sourceTree = "<group>"; };
+		DF7BB55C2BA592F500B9DD82 /* YMBLoggingConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLoggingConsole.swift; sourceTree = "<group>"; };
+		DF7BB55E2BA594D700B9DD82 /* YMBLoggingFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBLoggingFile.swift; sourceTree = "<group>"; };
+		DF7BB5602BA5A32100B9DD82 /* YMBAnalyticsAssert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsAssert.swift; sourceTree = "<group>"; };
+		DF7BB5622BA5A46600B9DD82 /* YMBAnalyticsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsType.swift; sourceTree = "<group>"; };
+		DF7BB5642BA5AACB00B9DD82 /* YMBAnalyticsApplicationLifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsApplicationLifecycle.swift; sourceTree = "<group>"; };
+		DF7BB56A2BA91FFD00B9DD82 /* YMBAnalyticsAutomaticProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsAutomaticProperties.swift; sourceTree = "<group>"; };
+		DF7BB56C2BA921D100B9DD82 /* YMBAnalyticsDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsDeviceInfo.swift; sourceTree = "<group>"; };
+		DF7BB56E2BA92EA800B9DD82 /* YMBAnalyticsPropertiesConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsPropertiesConst.swift; sourceTree = "<group>"; };
+		DF7BB5702BA933BE00B9DD82 /* YMBAnalyticsApplicationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsApplicationInfo.swift; sourceTree = "<group>"; };
+		DF7BB5722BA95D2A00B9DD82 /* YMBAnalyticsReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsReachability.swift; sourceTree = "<group>"; };
+		DF7BB5742BA9769000B9DD82 /* YMBAnalyticsFlush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsFlush.swift; sourceTree = "<group>"; };
+		DF7BB5782BA98F7000B9DD82 /* YMBAnalyticsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsDatabase.swift; sourceTree = "<group>"; };
+		DF7BB57C2BA99B3500B9DD82 /* YMBAnalyticsJSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsJSONHandler.swift; sourceTree = "<group>"; };
+		DF7BB57E2BA9A27200B9DD82 /* YMBAnalyticsEventStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsEventStorage.swift; sourceTree = "<group>"; };
+		DF7BB5842BAAC38100B9DD82 /* YMBAnalyticsFlushRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsFlushRequest.swift; sourceTree = "<group>"; };
+		DF7BB5862BAAD77D00B9DD82 /* YMBAnalyticsNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsNetwork.swift; sourceTree = "<group>"; };
+		DF7BB5882BABFFF600B9DD82 /* YMBAnalyticsStorageConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsStorageConst.swift; sourceTree = "<group>"; };
+		DF7BB58A2BAC004700B9DD82 /* YMBAnalyticsUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsUserDefaults.swift; sourceTree = "<group>"; };
+		DF7BB58C2BAC135B00B9DD82 /* YMBAnalyticsUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsUserInfo.swift; sourceTree = "<group>"; };
+		DF7BB58E2BAC146D00B9DD82 /* YMBAnalyticsDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsDate.swift; sourceTree = "<group>"; };
+		DF7BB5942BAC4BA000B9DD82 /* YMBAnalyticsPathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsPathManager.swift; sourceTree = "<group>"; };
+		DF7BB5962BAD15CF00B9DD82 /* YMBAnalyticsSwizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsSwizzle.swift; sourceTree = "<group>"; };
+		DF7BB5982BAD316900B9DD82 /* YMBAnalyticsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsScreen.swift; sourceTree = "<group>"; };
+		DF7BB59A2BAD471C00B9DD82 /* YMBAnalyticsKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsKeyChain.swift; sourceTree = "<group>"; };
+		DF7BB59C2BAD4A7C00B9DD82 /* YMBAnalyticsSha1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsSha1.swift; sourceTree = "<group>"; };
+		DF7BB59E2BAD775900B9DD82 /* YMBAnalytics.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YMBAnalytics.entitlements; sourceTree = "<group>"; };
+		DF7BB5A12BAE617800B9DD82 /* YMBAnalyticsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMBAnalyticsResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7BB4A22BA1AC6D00B9DD82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7BB49C2BA1AC6D00B9DD82 = {
+			isa = PBXGroup;
+			children = (
+				DF7BB4A72BA1AC6D00B9DD82 /* YMBAnalytics */,
+				DF7BB4A62BA1AC6D00B9DD82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7BB4A62BA1AC6D00B9DD82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB4A52BA1AC6D00B9DD82 /* YMBAnalytics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7BB4A72BA1AC6D00B9DD82 /* YMBAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB59E2BAD775900B9DD82 /* YMBAnalytics.entitlements */,
+				DF7BB4A82BA1AC6D00B9DD82 /* AppDelegate.swift */,
+				DF7BB4AA2BA1AC6D00B9DD82 /* SceneDelegate.swift */,
+				DF7BB4AC2BA1AC6D00B9DD82 /* ViewController.swift */,
+				DF7BB4AE2BA1AC6D00B9DD82 /* Main.storyboard */,
+				DF7BB4B12BA1AC6F00B9DD82 /* Assets.xcassets */,
+				DF7BB4B32BA1AC6F00B9DD82 /* LaunchScreen.storyboard */,
+				DF7BB4B62BA1AC6F00B9DD82 /* Info.plist */,
+				DF7BB5442BA5590700B9DD82 /* Source */,
+			);
+			path = YMBAnalytics;
+			sourceTree = "<group>";
+		};
+		DF7BB5442BA5590700B9DD82 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5502BA58CC700B9DD82 /* Shared */,
+				DF7BB5472BA55E4400B9DD82 /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DF7BB5472BA55E4400B9DD82 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5982BAD316900B9DD82 /* YMBAnalyticsScreen.swift */,
+				DF7BB5962BAD15CF00B9DD82 /* YMBAnalyticsSwizzle.swift */,
+				DF7BB54A2BA55E7000B9DD82 /* YMBAnalyticsConfiguration.swift */,
+				DF7BB5742BA9769000B9DD82 /* YMBAnalyticsFlush.swift */,
+				DF7BB54C2BA58C5C00B9DD82 /* YMBAnalyst.swift */,
+				DF7BB54E2BA58C7C00B9DD82 /* YMBAnalystManager.swift */,
+				DF7BB5482BA55E5500B9DD82 /* YMBAnalytics.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DF7BB5502BA58CC700B9DD82 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5832BAA6D5E00B9DD82 /* Utilities */,
+				DF7BB5822BAA6D0E00B9DD82 /* Serialize */,
+				DF7BB5812BAA6CF600B9DD82 /* Storage */,
+				DF7BB5802BAA6CE100B9DD82 /* Network */,
+				DF7BB5532BA58F5500B9DD82 /* Logger */,
+				DF7BB5942BAC4BA000B9DD82 /* YMBAnalyticsPathManager.swift */,
+				DF7BB5642BA5AACB00B9DD82 /* YMBAnalyticsApplicationLifecycle.swift */,
+				DF7BB56E2BA92EA800B9DD82 /* YMBAnalyticsPropertiesConst.swift */,
+				DF7BB56C2BA921D100B9DD82 /* YMBAnalyticsDeviceInfo.swift */,
+				DF7BB5702BA933BE00B9DD82 /* YMBAnalyticsApplicationInfo.swift */,
+				DF7BB58C2BAC135B00B9DD82 /* YMBAnalyticsUserInfo.swift */,
+				DF7BB56A2BA91FFD00B9DD82 /* YMBAnalyticsAutomaticProperties.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DF7BB5532BA58F5500B9DD82 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5562BA5902300B9DD82 /* YMBLoggerLevel.swift */,
+				DF7BB5582BA5903C00B9DD82 /* YMBLoggerMessage.swift */,
+				DF7BB55A2BA5906700B9DD82 /* YMBLogging.swift */,
+				DF7BB55C2BA592F500B9DD82 /* YMBLoggingConsole.swift */,
+				DF7BB55E2BA594D700B9DD82 /* YMBLoggingFile.swift */,
+				DF7BB5542BA58F6700B9DD82 /* YMBLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		DF7BB5802BAA6CE100B9DD82 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5722BA95D2A00B9DD82 /* YMBAnalyticsReachability.swift */,
+				DF7BB5A12BAE617800B9DD82 /* YMBAnalyticsResponse.swift */,
+				DF7BB5862BAAD77D00B9DD82 /* YMBAnalyticsNetwork.swift */,
+				DF7BB5842BAAC38100B9DD82 /* YMBAnalyticsFlushRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF7BB5812BAA6CF600B9DD82 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5882BABFFF600B9DD82 /* YMBAnalyticsStorageConst.swift */,
+				DF7BB5782BA98F7000B9DD82 /* YMBAnalyticsDatabase.swift */,
+				DF7BB57E2BA9A27200B9DD82 /* YMBAnalyticsEventStorage.swift */,
+				DF7BB58A2BAC004700B9DD82 /* YMBAnalyticsUserDefaults.swift */,
+				DF7BB59A2BAD471C00B9DD82 /* YMBAnalyticsKeyChain.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		DF7BB5822BAA6D0E00B9DD82 /* Serialize */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB57C2BA99B3500B9DD82 /* YMBAnalyticsJSONHandler.swift */,
+			);
+			path = Serialize;
+			sourceTree = "<group>";
+		};
+		DF7BB5832BAA6D5E00B9DD82 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DF7BB5602BA5A32100B9DD82 /* YMBAnalyticsAssert.swift */,
+				DF7BB5622BA5A46600B9DD82 /* YMBAnalyticsType.swift */,
+				DF7BB5512BA58CF200B9DD82 /* YMBAnalyticsReadWriteLock.swift */,
+				DF7BB58E2BAC146D00B9DD82 /* YMBAnalyticsDate.swift */,
+				DF7BB59C2BAD4A7C00B9DD82 /* YMBAnalyticsSha1.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7BB4A42BA1AC6D00B9DD82 /* YMBAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7BB4B92BA1AC6F00B9DD82 /* Build configuration list for PBXNativeTarget "YMBAnalytics" */;
+			buildPhases = (
+				DF7BB4A12BA1AC6D00B9DD82 /* Sources */,
+				DF7BB4A22BA1AC6D00B9DD82 /* Frameworks */,
+				DF7BB4A32BA1AC6D00B9DD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMBAnalytics;
+			productName = YMBAnalytics;
+			productReference = DF7BB4A52BA1AC6D00B9DD82 /* YMBAnalytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7BB49D2BA1AC6D00B9DD82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DF7BB4A42BA1AC6D00B9DD82 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = DF7BB4A02BA1AC6D00B9DD82 /* Build configuration list for PBXProject "YMBAnalytics" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7BB49C2BA1AC6D00B9DD82;
+			productRefGroup = DF7BB4A62BA1AC6D00B9DD82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7BB4A42BA1AC6D00B9DD82 /* YMBAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7BB4A32BA1AC6D00B9DD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7BB4B52BA1AC6F00B9DD82 /* LaunchScreen.storyboard in Resources */,
+				DF7BB4B22BA1AC6F00B9DD82 /* Assets.xcassets in Resources */,
+				DF7BB4B02BA1AC6E00B9DD82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7BB4A12BA1AC6D00B9DD82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7BB5A22BAE617800B9DD82 /* YMBAnalyticsResponse.swift in Sources */,
+				DF7BB56B2BA91FFD00B9DD82 /* YMBAnalyticsAutomaticProperties.swift in Sources */,
+				DF7BB57D2BA99B3500B9DD82 /* YMBAnalyticsJSONHandler.swift in Sources */,
+				DF7BB55F2BA594D700B9DD82 /* YMBLoggingFile.swift in Sources */,
+				DF7BB4AD2BA1AC6D00B9DD82 /* ViewController.swift in Sources */,
+				DF7BB58B2BAC004700B9DD82 /* YMBAnalyticsUserDefaults.swift in Sources */,
+				DF7BB56D2BA921D100B9DD82 /* YMBAnalyticsDeviceInfo.swift in Sources */,
+				DF7BB54F2BA58C7C00B9DD82 /* YMBAnalystManager.swift in Sources */,
+				DF7BB5632BA5A46600B9DD82 /* YMBAnalyticsType.swift in Sources */,
+				DF7BB5522BA58CF200B9DD82 /* YMBAnalyticsReadWriteLock.swift in Sources */,
+				DF7BB55D2BA592F500B9DD82 /* YMBLoggingConsole.swift in Sources */,
+				DF7BB5492BA55E5500B9DD82 /* YMBAnalytics.swift in Sources */,
+				DF7BB5872BAAD77D00B9DD82 /* YMBAnalyticsNetwork.swift in Sources */,
+				DF7BB5752BA9769000B9DD82 /* YMBAnalyticsFlush.swift in Sources */,
+				DF7BB54B2BA55E7000B9DD82 /* YMBAnalyticsConfiguration.swift in Sources */,
+				DF7BB4A92BA1AC6D00B9DD82 /* AppDelegate.swift in Sources */,
+				DF7BB55B2BA5906700B9DD82 /* YMBLogging.swift in Sources */,
+				DF7BB5732BA95D2A00B9DD82 /* YMBAnalyticsReachability.swift in Sources */,
+				DF7BB59B2BAD471C00B9DD82 /* YMBAnalyticsKeyChain.swift in Sources */,
+				DF7BB5552BA58F6700B9DD82 /* YMBLogger.swift in Sources */,
+				DF7BB5992BAD316900B9DD82 /* YMBAnalyticsScreen.swift in Sources */,
+				DF7BB5592BA5903C00B9DD82 /* YMBLoggerMessage.swift in Sources */,
+				DF7BB5972BAD15D000B9DD82 /* YMBAnalyticsSwizzle.swift in Sources */,
+				DF7BB54D2BA58C5C00B9DD82 /* YMBAnalyst.swift in Sources */,
+				DF7BB5852BAAC38100B9DD82 /* YMBAnalyticsFlushRequest.swift in Sources */,
+				DF7BB5792BA98F7000B9DD82 /* YMBAnalyticsDatabase.swift in Sources */,
+				DF7BB5612BA5A32100B9DD82 /* YMBAnalyticsAssert.swift in Sources */,
+				DF7BB58D2BAC135B00B9DD82 /* YMBAnalyticsUserInfo.swift in Sources */,
+				DF7BB5652BA5AACB00B9DD82 /* YMBAnalyticsApplicationLifecycle.swift in Sources */,
+				DF7BB5952BAC4BA000B9DD82 /* YMBAnalyticsPathManager.swift in Sources */,
+				DF7BB4AB2BA1AC6D00B9DD82 /* SceneDelegate.swift in Sources */,
+				DF7BB59D2BAD4A7C00B9DD82 /* YMBAnalyticsSha1.swift in Sources */,
+				DF7BB57F2BA9A27200B9DD82 /* YMBAnalyticsEventStorage.swift in Sources */,
+				DF7BB5712BA933BE00B9DD82 /* YMBAnalyticsApplicationInfo.swift in Sources */,
+				DF7BB58F2BAC146D00B9DD82 /* YMBAnalyticsDate.swift in Sources */,
+				DF7BB5572BA5902300B9DD82 /* YMBLoggerLevel.swift in Sources */,
+				DF7BB5892BABFFF600B9DD82 /* YMBAnalyticsStorageConst.swift in Sources */,
+				DF7BB56F2BA92EA800B9DD82 /* YMBAnalyticsPropertiesConst.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF7BB4AE2BA1AC6D00B9DD82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7BB4AF2BA1AC6D00B9DD82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7BB4B32BA1AC6F00B9DD82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7BB4B42BA1AC6F00B9DD82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF7BB4B72BA1AC6F00B9DD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7BB4B82BA1AC6F00B9DD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7BB4BA2BA1AC6F00B9DD82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YMBAnalytics/YMBAnalytics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YMBAnalytics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ym.flutter.YMBAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7BB4BB2BA1AC6F00B9DD82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YMBAnalytics/YMBAnalytics.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YMBAnalytics/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ym.flutter.YMBAnalytics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7BB4A02BA1AC6D00B9DD82 /* Build configuration list for PBXProject "YMBAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7BB4B72BA1AC6F00B9DD82 /* Debug */,
+				DF7BB4B82BA1AC6F00B9DD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7BB4B92BA1AC6F00B9DD82 /* Build configuration list for PBXNativeTarget "YMBAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7BB4BA2BA1AC6F00B9DD82 /* Debug */,
+				DF7BB4BB2BA1AC6F00B9DD82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7BB49D2BA1AC6D00B9DD82 /* Project object */;
+}
